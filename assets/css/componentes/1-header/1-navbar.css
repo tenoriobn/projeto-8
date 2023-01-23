@@ -1,0 +1,41 @@
+.container__logotipo {
+    cursor: pointer;
+}
+
+.navbar-toggler--icon {
+    background-image: url(../../../img/icon/Hamburger-Button.svg);
+    
+    height: 1.625rem;
+    width: 2.0625rem;
+}
+
+.offcanvas--mod {
+    background: var(--bg-color);
+    transition: 1s;
+}
+
+.btn--close {
+    color: #a096cb;
+    font-size: 2rem;
+}
+
+.nav--link, .btn--mod-contact, .btn--mod-join {
+    color: var(--branco);
+
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: .9375rem;
+}
+
+.btn--mod-contact {
+    border: 2px solid #fff;
+
+    padding: 1rem 2.125rem;
+}
+
+.btn--mod-join {
+    border: none!important;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: var(--roxo);
+    padding: 1rem 2.125rem;
+}

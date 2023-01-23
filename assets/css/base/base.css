@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url(_variaveis.css);
+@import url(../componentes/1-header/1-navbar.css);
+
+body {
+    background: var(--bg-color);
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: var(--light);
+}

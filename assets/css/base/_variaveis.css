@@ -1,0 +1,17 @@
+:root {
+    /* Color */
+    --bg-color:#302C42;
+
+    --branco: #ffffff;
+    --preto: #000000;
+
+    --roxo: #343045;
+
+    /* Font-family */
+    --montserrat: 'Montserrat', sans-serif;
+
+    /* Font-weigth */
+    --light: 300;
+    --regular: 400;
+    --bold: 700;
+}
