@@ -10,13 +10,8 @@
 }
 
 .offcanvas--mod {
-    background: var(--bg-color);
+    background: var(--roxo-darkSlate);
     transition: 1s;
-}
-
-.btn--close {
-    color: #a096cb;
-    font-size: 2rem;
 }
 
 .nav--link, .btn--mod-contact, .btn--mod-join {
@@ -28,7 +23,7 @@
 }
 
 .btn--mod-contact {
-    border: 2px solid #fff;
+    border: 2px solid var(--branco);
 
     padding: 1rem 2.125rem;
 }
@@ -36,6 +31,6 @@
 .btn--mod-join {
     border: none!important;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-    color: var(--roxo);
+    color: var(--roxo-eggplant);
     padding: 1rem 2.125rem;
 }

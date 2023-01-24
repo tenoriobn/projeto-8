@@ -1,17 +1,21 @@
 :root {
     /* Color */
-    --bg-color:#302C42;
-
+    
     --branco: #ffffff;
+
     --preto: #000000;
 
-    --roxo: #343045;
+    --roxo-darkSlate:#302C42;
+    --roxo-eggplant: #343045;
+    --roxo-heather: #C0B7E8;
+    --roxo-iris: #a096cb;
+    --roxo-amethyst: #8176AF;
 
     /* Font-family */
     --montserrat: 'Montserrat', sans-serif;
 
     /* Font-weigth */
+    --bold: 700;
     --light: 300;
     --regular: 400;
-    --bold: 700;
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar fixed-top pt-4 pb-4">
+        <nav class="navbar pt-4 pb-4">
             <div class="container">
                 <figure class="container__logotipo m-0">
                     <img src="assets/img/logotipo/logotipo - icon.svg" alt="company logo icon" class="w-auto">
@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon navbar-toggler--icon"></span>
                 </button>
 
-                <nav class="border-0 offcanvas offcanvas--mod offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="border-0 offcanvas offcanvas--mod offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <header class="offcanvas-header">
                         <figure class="container__logotipo m-0">
                             <img src="assets/img/logotipo/logotipo - icon.svg" alt="company logo icon" class="w-auto">
@@ -43,13 +43,23 @@
                         <div class="d-flex flex-column gap-3">
                             <button type="button" class="btn btn--mod-contact rounded-5 text-uppercase">Contact Us</button>
                             <button type="button" class="btn btn--mod-join rounded-5 text-uppercase">Join Hydra</button>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+                        </div><!-- Container dos botões do menu -->
+                    </div><!-- Container do menu mobile -->
+                </div> <!-- Container responsável por mostrar/ocultar menu mobile -->
+            </div><!-- Container com margin e padding responsivos -->
         </nav>
 
-        <section class="headline"></section>
+        <section class="container align-items-center d-flex flex-column headline">
+            <img src="assets/img/img/img-headline.png" alt="imagem ilustrativa" class="headline__img img-fluid w-100">
+
+            <h2 class="headline__subtitle text-center text-capitalize">Dive 
+                <span class="headline__subtitle--mod">Into The Depths 
+                <br>Of</span> <span class="headline__subtitle---mod">Virtual Reality</span>
+            </h2>
+
+            <button type="button" class="border-0 btn btn--mod text-uppercase">Build Your World</button>
+            
+        </section>
     </header>
 
     <!-- JavaScript -->
@@ -58,3 +68,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- Criar seção de localização também pertecente ao header -->
+
+
+<!-- Correções -->
+<!-- 
+    * Modificar o icon de close e adicionar o container dentro do menu mobile.
+    * Adicionar efeitos de linha no background
+    * Criar box-shadow da img do headline
+-->
