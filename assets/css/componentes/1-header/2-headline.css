@@ -1,7 +1,3 @@
-.headline {
-    margin-top: 3.375rem;
-}
-
 .headline__img {
     max-height: 17.315rem;
     max-width: 19.9169rem;
@@ -39,21 +35,6 @@
 
     font-size: 1.7rem;
     line-height: 2.4381rem;
-}
-
-.btn--mod {
-    background: linear-gradient(90deg, var(--roxo-amethyst) 0%, var(--roxo-heather) 100%);
-    border-radius: 2.5rem;
-    
-    color: var(--roxo-eggplant);
-    font-size: .875rem;
-    font-weight: 700;
-    line-height: 1.0625rem;
-
-    height: 3.25rem;
-    width: 15.8125rem;
-
-    margin-top: 2.25rem;
 }
 
 @media screen and (min-width: 320px) {

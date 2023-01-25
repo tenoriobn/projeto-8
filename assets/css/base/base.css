@@ -2,6 +2,7 @@
 @import url(_variaveis.css);
 @import url(../componentes/1-header/1-navbar.css);
 @import url(../componentes/1-header/2-headline.css);
+@import url(../componentes/2-main/1-introduction.css);
 
 body {
     background: var(--roxo-darkSlate);
@@ -9,4 +10,43 @@ body {
     font-family: var(--montserrat);
     font-size: 1rem;
     font-weight: var(--light);
+}
+
+.margin-top {
+    margin-top: 3.375rem;
+}
+
+.btn--mod {
+    background: linear-gradient(90deg, var(--roxo-amethyst) 0%, var(--roxo-heather) 100%);
+    border-radius: 2.5rem;
+    
+    color: var(--roxo-eggplant);
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.0625rem;
+
+    height: 3.25rem;
+    width: 15.8125rem;
+
+    margin-top: 2.25rem;
+}
+
+.subtitle {
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.interlude {
+    font-size: 1.625rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.paragraph {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: .9375rem;
+
+    max-width: 345px;
 }
