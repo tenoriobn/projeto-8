@@ -1,0 +1,48 @@
+.header__info {
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    border-radius: 90px;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+}
+
+.prev--icon {
+    background-image: url(../../../img/icon/prev-icon.svg);
+
+    height: 1.4063rem;
+    width: 1.4063rem;
+}
+
+.next--icon {
+    background-image: url(../../../img/icon/next-icon.svg);
+
+    height: 1.4063rem;
+    width: 1.4063rem;
+}
+
+.info__carousel--img {
+    max-width: 40.83px;
+}
+
+.info__carousel {
+    max-width: 12.1875rem;
+}
+
+.info__carousel_link {
+    font-size: 13px;
+    line-height: 1.0625rem;
+}
+
+.carousel__transition {
+    transition: 1s;
+}
+
+@media screen and (min-width: 375px) {
+    .info__carousel_link {
+        font-size: .875rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info__carousel {
+        max-width: 100%;
+    }
+}
