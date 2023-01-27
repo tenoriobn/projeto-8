@@ -1,0 +1,46 @@
+.form__bg {
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    border-radius: 40px;
+}
+
+.form__underlined {
+    background: linear-gradient(269deg, #343045 -3.72%, #C0B7E8 -3.72%, #8176AF 78.45%);
+    height: 1px;
+    width: 130.5px;
+}
+
+.form--interlude {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    max-width: 292px;
+}
+
+.form__field {
+    color: var(--branco);
+}
+
+.form__field:focus {
+    color: var(--branco);
+    border-color: var(--roxo-iris)!important;
+    box-shadow: 0 0 0 0.25rem var(--roxo-darkSlate)!important;
+}
+
+.form__field::placeholder {
+    color: var(--cinza);
+}
+
+@media screen and (min-width: 375px) {
+    .form--interlude {
+        font-size: 1.625rem;
+        line-height: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .form--interlude {
+        max-width: 100%;
+    }
+    
+}

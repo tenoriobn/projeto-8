@@ -4,6 +4,7 @@
 @import url(../componentes/1-header/2-headline.css);
 @import url(../componentes/1-header/3-info.css);
 @import url(../componentes/2-main/1-introduction.css);
+@import url(../componentes/2-main/2-form.css);
 
 body {
     background: var(--roxo-darkSlate);
@@ -30,6 +31,12 @@ body {
     width: 15.8125rem;
 
     margin-top: 2.25rem;
+
+    transition: .6s;
+}
+
+.btn--mod:hover {
+    background: linear-gradient(269deg, #343045 -3.72%, #8176AF 78.45%);
 }
 
 .subtitle {
