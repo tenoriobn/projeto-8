@@ -1,0 +1,47 @@
+.why__info {
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+
+    padding-bottom: 2.25rem;
+}
+
+.why__prev--icon {
+    background-image: url(../../../img/icon/carousel__prev-icon.svg);
+    width: 15.83px;
+}
+
+.why__next--icon {
+    background-image: url(../../../img/icon/carousel__next-icon.svg);
+    width: 15.83px;
+}
+
+.why__carousel_img {
+    max-width: 11.9325rem;
+    max-height: 11.9325rem;
+
+    border-radius:50%;
+    box-shadow: 0 0 0 14px rgba(14, 14, 14, 0.32);
+}
+
+.why__carousel_text {
+    max-width: 249px;
+}
+
+.carousel__subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8125rem;
+
+    margin-top: 2.125rem;
+}
+
+.why__carousel--underlined {
+    background: rgba(192, 183, 232, 0.33);;
+    width: 9.9375rem!important;
+}
+
+.carousel__paragraph {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: .9375rem;
+}
