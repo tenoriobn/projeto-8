@@ -1,0 +1,68 @@
+footer {
+    margin-top: 5.0625rem;
+    margin-bottom: 2.25rem;
+}
+
+.footer__logo_img {
+    max-height: 11.6875rem;
+    max-width: 11.5625rem;
+}
+
+.footer__social_subtitulo {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.footer__social_icons {
+    cursor: pointer;
+
+    display: inline-block;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    width: 32px;
+    height: 32px;
+}
+
+.icon-facebook {
+    background-image: url(../../../img/icon/facebook.svg);
+}
+
+.icon-twitter {
+    background-image: url(../../../img/icon/twitter.svg);
+}
+
+.icon-linkedin {
+    background-image: url(../../../img/icon/linkedin.svg);
+}
+
+.icon-youtube {
+    background-image: url(../../../img/icon/youtube.svg);
+}
+
+.icon-instagram {
+    background-image: url(../../../img/icon/instagram.svg);
+}
+
+.icon-pinterest {
+    background-image: url(../../../img/icon/pinterest.svg);
+}
+
+.footer_underline {
+    background: linear-gradient(269deg, #343045 -3.72%, #8176AF 96.28%);
+    height: 1px;
+    width: 253px;
+
+    margin-top: 46px;
+    margin-bottom: 40px;
+}
+
+.footer__creditos {
+    font-size: .775rem;
+    font-weight: 600;
+    line-height: 1.5625rem;
+
+    letter-spacing: 0.02em;
+}
