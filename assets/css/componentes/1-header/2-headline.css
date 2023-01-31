@@ -1,4 +1,6 @@
 .headline__img {
+    filter: drop-shadow(0px 0px 6px #a399cd);
+
     max-height: 17.315rem;
     max-width: 19.9169rem;
 }

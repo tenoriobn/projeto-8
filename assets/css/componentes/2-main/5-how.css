@@ -1,0 +1,21 @@
+.how__carousel_number {
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 87.13%);
+    border-radius: 100%;
+    box-shadow: 0 0 0 16px #252231;
+
+    color: var(--roxo-eggplant);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 4.8762rem;
+
+    width: 159px;
+    height: 159px;
+}
+
+.how__carousel_subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8288rem;
+
+    max-width: 11.8875rem;
+}
