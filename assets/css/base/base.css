@@ -40,7 +40,9 @@ body {
 }
 
 .btn--mod:hover {
+    color: var(--branco);
     background: linear-gradient(269deg, #343045 -3.72%, #8176AF 78.45%);
+    filter: drop-shadow(0px 0px 6px #a399cd);
 }
 
 .subtitle {
@@ -60,5 +62,18 @@ body {
     font-weight: 400;
     line-height: .9375rem;
 
-    max-width: 345px;
+    max-width: 21.5625rem;
+}
+
+@media screen and (min-width: 992px) {
+    .margin-top {
+        margin-top: 8.125rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+        line-height: 1.25rem;
+
+        max-width: 28.125rem;
+    }
 }

@@ -11,18 +11,18 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar pt-4 pb-0">
+        <nav class="navbar navbar-expand-lg pb-0 pt-4 pt-lg-5">
             <div class="container">
-                <figure class="container__logotipo m-0">
-                    <img src="assets/img/logotipo/logotipo - icon.svg" alt="company logo icon" class="w-auto">
-                    <img src="assets/img/logotipo/logotipo - text.svg" alt="Company name text" class="w-auto">
+                <figure class="align-items-center container__logotipo d-flex gap-2 m-0">
+                    <img src="assets/img/logotipo/logotipo - icon.svg" alt="company logo icon" class="logotipo__icon w-100">
+                    <img src="assets/img/logotipo/logotipo - text.svg" alt="Company name text" class="logotipo__text w-100">
                 </figure>
                 
                 <button class="border-0 navbar-toggler p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon navbar-toggler--icon"></span>
                 </button>
 
-                <div class="border-0 offcanvas offcanvas--mod offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="border-0 offcanvas offcanvas-end offcanvas--mod w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <header class="offcanvas-header">
                         <figure class="container__logotipo m-0">
                             <img src="assets/img/logotipo/logotipo - icon.svg" alt="company logo icon" class="w-auto">
@@ -32,32 +32,42 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </header>
 
-                    <div class="offcanvas-body d-flex flex-column align-items-center">
-                        <ul class="navbar-nav align-items-center d-flex flex-column justify-content-center justify-content-lg-end flex-grow-1 gap-5">
+                    <div class="align-items-center d-flex flex-column flex-lg-row offcanvas-body">
+                        <ul class="align-items-center d-flex flex-column flex-grow-1 flex-lg-row gap-5 gap-lg-2 gap-xl-5 justify-content-center navbar-nav">
                             <li class="nav-item"><a class="nav-link nav--link text-uppercase" href="#">About</a></li>
                             <li class="nav-item"><a class="nav-link nav--link text-uppercase" href="#">Services</a></li>
                             <li class="nav-item"><a class="nav-link nav--link text-uppercase" href="#">Technologies</a></li>
                             <li class="nav-item"><a class="nav-link nav--link text-uppercase" href="#">How To</a></li>
                         </ul>
 
-                        <div class="d-flex flex-column gap-3">
+                        <div class="d-flex flex-column flex-lg-row gap-3">
                             <button type="button" class="btn btn--mod-contact rounded-5 text-uppercase">Contact Us</button>
                             <button type="button" class="btn btn--mod-join rounded-5 text-uppercase">Join Hydra</button>
                         </div><!-- Container dos botões do menu -->
                     </div><!-- Container do menu mobile -->
+
                 </div> <!-- Container responsável por mostrar/ocultar menu mobile -->
+
             </div><!-- Container com margin e padding responsivos -->
         </nav>
 
-        <section class="container align-items-center d-flex flex-column headline margin-top">
-            <img src="assets/img/img/img-headline.png" alt="imagem ilustrativa" class="headline__img img-fluid w-100">
+        <section class="container d-lg-flex headline justify-content-lg-between margin-top">
+            <figure class="align-items-center container__headline_img d-flex justify-content-center mb-0">
+                <img src="assets/img/img/img-headline.png" alt="imagem ilustrativa" class="headline__img img-fluid">
+            </figure>
 
-            <h2 class="headline__subtitle text-center text-capitalize">Dive 
-                <span class="headline__subtitle--mod">Into The Depths 
-                <br>Of</span> <span class="headline__subtitle---mod">Virtual Reality</span>
-            </h2>
+            <div class="align-items-center align-items-lg-start container__headline_text d-flex flex-column justify-content-center">
+                <h2 class="headline__subtitle text-capitalize text-center text-lg-start">Dive 
+                    <span class="headline__subtitle--mod">Into The Depths 
+                    <br>Of</span> <span class="headline__subtitle">Virtual Reality</span>
+                </h2>
+                <p class="d-lg-flex d-none mb-0 mt-4 paragraph headline__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris eros in vitae .</p>
 
-            <button type="button" class="border-0 btn btn--mod text-uppercase">Build Your World</button>
+                <div class="align-items-center d-flex gap-lg-4 gap-xl-5 mt-4">
+                    <button type="button" class="border-0 btn--mod headline__btn text-uppercase">Build Your World</button>
+                    <span class="d-none d-lg-flex headline__seta"></span>
+                </div>
+            </div>
             
         </section>
 

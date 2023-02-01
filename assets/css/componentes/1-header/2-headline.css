@@ -1,8 +1,8 @@
 .headline__img {
     filter: drop-shadow(0px 0px 6px #a399cd);
 
-    max-height: 17.315rem;
-    max-width: 19.9169rem;
+    height: 17.315rem;
+    width: 19.9169rem;
 }
 
 .headline__subtitle {
@@ -11,13 +11,13 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 1.5rem;
+    line-height: 2rem;
 
     margin-top: 2.5rem;
 
-    width: 16.0125rem;
+    max-width: 15.5rem;
 }
 
 .headline__subtitle--mod {
@@ -25,7 +25,7 @@
     -webkit-background-clip: text;
     
     color: var(--branco)!important;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     line-height: 1.8288rem;
 }
 
@@ -41,15 +41,14 @@
 
 @media screen and (min-width: 320px) {
     .headline__subtitle {
-        font-size: 2.25rem;
+        font-size: 2rem;
         line-height: 2.7425rem;
 
-        width: 18.75rem;
+        max-width: 18.75rem;
     }
 
     .headline__subtitle--mod {
-        font-size: 1.5rem;
-        line-height: 1.8288rem;
+        font-size: 1.25rem;
     }
 
     .headline__subtitle---mod {
@@ -62,4 +61,99 @@
         width: 18.25rem;
     }
     
+}
+
+@media screen and (min-width: 375px) {
+    .headline__subtitle {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+
+        max-width: 21.875rem;
+    }
+
+    .headline__subtitle--mod {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .headline__img {
+        filter: drop-shadow(0px 0px 6px #a399cd);
+    
+        width: 30.625rem!important;
+        height: 26.625rem!important;
+    }
+    
+    .headline__subtitle {
+        font-size: 2.875rem;
+        line-height: 3.5rem;
+
+        max-width: 28.5rem;
+    }
+
+    .headline__subtitle--mod {
+        font-size: 2.5rem;
+        line-height: 3.0625rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .headline {
+        order: 2;
+    }
+
+    .container__headline_img {
+        order: 2;
+    }
+
+    .container__headline_text {
+        order: 1;
+    }
+
+    .headline__subtitle {
+        font-size: 2.5rem;
+    }
+
+    .headline__subtitle--mod {
+        font-size: 2.2rem;
+    }
+
+    .headline__paragraph {
+        max-width: 25rem!important;
+    }
+
+    .headline__btn {
+        max-width: 13.375rem!important;
+    }
+
+    .headline__seta {
+        background-image: url(../../../img/icon/seta.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        cursor: pointer;
+
+        width: 2.6044rem;
+        height: 2.0831rem;
+
+        margin-top: 2.25rem;
+    }
+
+    .headline__seta:hover {
+        filter: drop-shadow(0px 0px 6px #a399cd);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .headline__subtitle {
+        font-size: 2.875rem;
+    }
+
+    .headline__subtitle--mod {
+        font-size: 2.5rem;
+    }
+
+    .headline__paragraph {
+        max-width: 28.125rem!important;
+    }
 }
