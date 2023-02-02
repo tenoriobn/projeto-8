@@ -61,7 +61,7 @@
                     <span class="headline__subtitle--mod">Into The Depths 
                     <br>Of</span> <span class="headline__subtitle">Virtual Reality</span>
                 </h2>
-                <p class="d-lg-flex d-none mb-0 mt-4 paragraph headline__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris eros in vitae .</p>
+                <p class="d-lg-flex d-none mb-0 mt-4 headline__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris eros in vitae .</p>
 
                 <div class="align-items-center d-flex gap-lg-4 gap-xl-5 mt-4">
                     <button type="button" class="border-0 btn--mod headline__btn text-uppercase">Build Your World</button>
@@ -87,7 +87,7 @@
                         </figcaption>
                     </figure>
 
-                    <figure class="align-items-center carousel-item carousel__transition d-flex justify-content-center gap-2 mb-0">
+                    <figure class=" align-items-center carousel-item carousel__transition d-flex justify-content-center gap-2 mb-0">
                         <img src="assets/img/icon/phone-icon.svg" class="d-block info__carousel--img" alt="...">
 
                         <figcaption class="info__carousel">
@@ -113,18 +113,55 @@
     </header>
 
     <main class="conteudo">
-        <section class="align-items-center container d-flex flex-column introduction justify-content-center margin-top">
-            <h2 class="subtitle mb-3 text-uppercase">Introduction</h2>
-            <h3 class="interlude mb-3 text-uppercase">To Hydra VR</h3>
-            <img src="assets/img/img/img-introduction.svg" alt="Imagem Ilustrativa" class="img-fluid pb-2 pt-3">
-            <p class="paragraph mb-0 mt-4">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipisci ng at in. Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet sed. Consequat sem per viverra nam libero justo laoreet sit amet. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudin tempor.</p>
-            <button type="button" class="border-0 btn btn--mod text-uppercase">Let's Get In Touch</button>
+        <section class="container d-flex flex-column introduction justify-content-center margin-top">
+            <div class="align-items-center d-flex justify-content-center justify-content-lg-between mb-lg-5">
+                <div class="align-items-center align-items-lg-start d-flex flex-column">
+                    <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">Introduction</h2>
+                    <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
+                        <h3 class="interlude mb-3 mb-lg-0 text-center text-lg-start text-uppercase">To Hydra VR</h3>
+                        <span class="d-none d-lg-flex introduction__seta"></span>
+                    </div><!-- Interlude + icon right arrow -->
+                </div><!-- Container Text Responsive -->
+
+                <div class="d-none d-lg-flex">
+                    <p class="mb-0 introduction--paragraph paragraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                    </p>
+                </div><!-- Container introduction--paragraph // min-width: 992px -->
+            </div><!-- Container Introduction + Paragraph-->
+
+            <div class="align-items-center d-flex flex-column flex-lg-row justify-content-lg-between mt-lg-5">
+                <img src="assets/img/img/img-introduction.svg" alt="Imagem Ilustrativa" class="img--introduction pb-2 pb-lg-0 pt-3 pt-lg-0 w-100">
+                
+                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                    <h2 class="d-none d-lg-flex subtitle mb-3 mb-lg-2 text-uppercase">About</h2><!-- min-width: 992px -->
+                    <h3 class="d-none d-lg-flex interlude mb-3 mb-lg-0 text-uppercase">Hydra VR</h3><!-- min-width: 992px -->
+                    <p class="introduction--paragraph paragraph mb-0 mt-4">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipisci ng at in. Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet sed. Consequat sem per viverra nam libero justo laoreet sit amet. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudin tempor.</p>
+                    <button type="button" class="border-0 btn btn--mod text-uppercase">Let's Get In Touch</button>
+                </div><!-- Container subtitle, paragraph, button -->
+            </div><!-- Container Introduction IMG + Paragraph -->
         </section>
         
         <section class="container margin-top why">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <h2 class="subtitle mb-3 text-uppercase">Why Build</h2>
-                <h3 class="interlude mb-3 text-uppercase">With Hydra</h3>
+            <div class="align-items-center d-flex justify-content-center justify-content-lg-between mb-lg-5">
+
+                <div class="align-items-center align-items-lg-start d-flex flex-column">
+                    <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">Why Build</h2>
+                    <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
+                        <h3 class="interlude mb-3 mb-lg-0 text-center text-lg-start text-uppercase">With Hydra</h3>
+                        <span class="d-none d-lg-flex introduction__seta"></span>
+                    </div><!-- Interlude + icon right arrow -->
+                </div><!-- Container Text Responsive -->
+                
+                <div class="d-none d-lg-flex">
+                    <p class="mb-0 introduction--paragraph paragraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                    </p>
+                </div><!-- Container introduction--paragraph // min-width: 992px -->
             </div><!-- Container Text -->
 
             <div class="carousel align-items-center d-flex justify-content-center slide why__info" id="carouselExample">
@@ -249,9 +286,24 @@
         </section>
 
         <section class="container how margin-top">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <h2 class="subtitle mb-3 text-uppercase">How We Build</h2>
-                <h3 class="interlude mb-3 text-uppercase">With Hydra VR?</h3>
+
+            <div class="align-items-center d-flex justify-content-center justify-content-lg-between mb-lg-5">
+
+                <div class="align-items-center align-items-lg-start d-flex flex-column">
+                    <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">How We Build</h2>
+                    <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
+                        <h3 class="interlude mb-3 mb-lg-0 text-center text-lg-start text-uppercase">With Hydra VR?</h3>
+                        <span class="d-none d-lg-flex introduction__seta"></span>
+                    </div><!-- Interlude + icon right arrow -->
+                </div><!-- Container Text -->
+
+                <div class="d-none d-lg-flex">
+                    <p class="mb-0 introduction--paragraph paragraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                                        nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
+                                        quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
+                                        lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                    </p>
+                </div><!-- Container introduction--paragraph // min-width: 992px -->
             </div><!-- Container Text -->
 
             <div class="carousel align-items-center d-flex justify-content-center slide how__info" id="carouselExample2">

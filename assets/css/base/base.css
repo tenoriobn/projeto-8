@@ -62,17 +62,43 @@ body {
     font-weight: 400;
     line-height: .9375rem;
 
-    max-width: 21.5625rem;
+    max-width: 28.6875rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .margin-top {
         margin-top: 8.125rem;
     }
 
+    .subtitle {
+        font-size: 2rem;
+        line-height: 2.7425rem;
+    }
+
+    .interlude {
+        font-size: 1.8rem;
+        line-height: 2.75rem;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 1.25rem;
+
+        max-width: 28.125rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .subtitle {
+        font-size: 2.25rem;
+    }
+
+    .interlude {
+        font-size: 2.25rem;
+    }
+
     .paragraph {
         font-size: 1rem;
-        line-height: 1.25rem;
 
         max-width: 28.125rem;
     }

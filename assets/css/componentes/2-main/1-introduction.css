@@ -1,0 +1,29 @@
+.img--introduction {
+    max-width: 28.6875rem;
+    max-height: 34.8125rem;
+}
+
+.introduction__seta {
+    display: block;
+
+    background-image: url(../../../img/icon/seta-longa.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    cursor: pointer;
+
+    width: 201px;
+    height: 35px;
+}
+
+@media screen and (min-width: 1200px) {
+    .introduction--paragraph {
+        max-width: 39.375rem!important;
+    }
+
+    .img--introduction {
+        max-width: 32.75rem;
+        max-height: 34.8125rem;
+    }
+}
