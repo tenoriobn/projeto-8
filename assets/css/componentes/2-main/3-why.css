@@ -45,3 +45,40 @@
     font-weight: 400;
     line-height: .9375rem;
 }
+
+@media screen and (min-width: 992px) {
+    .why__info {
+        background: none;
+        border-radius: 0px;
+    
+        padding-bottom: 0px;
+    }
+
+    .why__info--lg {
+        background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+        border-radius: 40px;
+
+        max-width: 310px;
+    
+        padding-bottom: 2.25rem;
+    }
+
+    .why__carousel_img {
+        width: 85%;
+    }
+
+    .carousel--item {
+        display: block!important;
+        float: none!important;
+        width: 100%!important;
+
+        margin-right: 0%!important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .why__carousel_img {
+        width: 100%;
+    }
+
+}
