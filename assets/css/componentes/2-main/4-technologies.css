@@ -1,10 +1,26 @@
+.accordion--button::after {
+    background-color: var(--roxo-amethyst);
+    background-image: url(../../../img/icon/down\ arrow.svg);
+    background-position: center;
+
+    border-radius: 50%;
+
+    padding: 25px;
+
+    position: absolute;
+    bottom: -20px;
+    margin-left:inherit;
+}
+
 .technologies__subtitle {
+    color: var(--branco);
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.25rem;
 }
 
 .technologies__paragraph {
+    color: var(--branco);
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.8125rem;

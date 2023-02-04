@@ -19,16 +19,24 @@
 }
 
 .info__carousel--img {
-    max-width: 40.83px;
+    max-height: 3.8269rem;
+    max-width: 2.5519rem;
 }
 
 .info__carousel {
     max-width: 12.1875rem;
 }
 
+.info__carousel__subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8125rem;
+}
+
 .info__carousel_link {
-    font-size: 13px;
+    font-size: .8125rem;
     line-height: 1.0625rem;
+    max-width: 9.375rem;
 }
 
 .carousel__transition {
@@ -38,11 +46,39 @@
 @media screen and (min-width: 375px) {
     .info__carousel_link {
         font-size: .875rem;
+        max-width: 12.5rem!important;
     }
 }
 
 @media screen and (min-width: 768px) {
     .info__carousel {
         max-width: 100%;
+    }
+
+    .info__carousel_link {
+        max-width: 291px!important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .info__carousel--img {
+        max-height: inherit;
+        max-width: inherit;
+    }
+
+    .info__carousel__subtitle {
+        font-size: 1.2rem;
+    }
+
+    .info__underline {
+        background-color: var(--roxo-heather);
+        width: .0625rem;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .info__carousel__subtitle {
+        font-size: 1.5rem;
     }
 }

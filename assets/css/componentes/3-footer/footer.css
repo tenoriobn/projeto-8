@@ -8,6 +8,26 @@ footer {
     max-width: 11.5625rem;
 }
 
+.footer__underline {
+    background: linear-gradient(179.87deg, #343045 0.47%, #343045 0.47%, #C0B7E8 35.21%, #8176AF 68.91%, #343045 99.5%);
+
+    height: auto;
+    width: .375rem;
+}
+
+.footer__lista__link {
+    color: var(--branco);
+
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.footer__lista__link:hover {
+    color: #C0B7E8;
+    filter: drop-shadow(0px 0px 12px #a399cd);
+}
+
 .footer__social_subtitulo {
     font-size: 1rem;
     font-weight: 700;
@@ -50,10 +70,10 @@ footer {
     background-image: url(../../../img/icon/pinterest.svg);
 }
 
-.footer_underline {
-    background: linear-gradient(269deg, #343045 -3.72%, #8176AF 96.28%);
+.footer__underline-mod{
+    background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
     height: 1px;
-    width: 253px;
+    width: 100%;
 
     margin-top: 46px;
     margin-bottom: 40px;
@@ -65,4 +85,12 @@ footer {
     line-height: 1.5625rem;
 
     letter-spacing: 0.02em;
+
+    max-width: 18.125rem;
+}
+
+@media screen and (min-width: 992px) {
+    .footer__creditos {
+        max-width: 100%;
+    }
 }

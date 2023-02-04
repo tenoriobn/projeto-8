@@ -72,49 +72,65 @@
         </section>
 
         <section class="container margin-top">
-            <div class="carousel carousel-fade align-items-center d-flex header__info pb-4 pt-4 slide" id="carouselExampleFade">
-                <button class="carousel-control-prev position-relative" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <div class="align-items-center carousel d-flex header__info justify-content-center pb-4 pt-4" id="carouselExample4">
+                <button class="carousel-control-prev d-lg-none position-relative" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon prev--icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
-                <div class="carousel-inner align-items-center d-flex">
-                    <figure class="active align-items-center carousel-item carousel__transition d-flex justify-content-center gap-2 mb-0">
-                        <img src="assets/img/icon/localization-icon.svg" class="d-block info__carousel--img" alt="...">
+                <div class="carousel-inner d-lg-flex justify-content-lg-between align-items-lg-start ps-lg-5 pe-lg-5">
 
-                        <figcaption class="info__carousel">
-                            <a class="info__carousel_link m-0 text-decoration-none text-white" href="#">Union St, Seattle, WA 98101, United States</a>
-                        </figcaption>
-                    </figure>
+                    <div class="active carousel-item carousel--item carousel__transition">
+                        <figure class="align-items-center carousel--img d-flex justify-content-center justify-content-lg-start gap-2 gap-lg-3 m-0">
+                            <img src="assets/img/icon/localization-icon.svg" class="img-fluid info__carousel--img" alt="...">
 
-                    <figure class=" align-items-center carousel-item carousel__transition d-flex justify-content-center gap-2 mb-0">
-                        <img src="assets/img/icon/phone-icon.svg" class="d-block info__carousel--img" alt="...">
+                            <figcaption class="d-flex flex-column">
+                                <h2 class="d-none d-lg-flex info__carousel__subtitle mb-2">Pay Us a Visit</h2>
+                                <a class="info__carousel_link m-0 text-decoration-none text-white" href="#">Union St, Seattle, WA 98101, United States</a>
+                            </figcaption>
+                        </figure>
+                    </div><!-- Carousel-item -->
 
-                        <figcaption class="info__carousel">
-                            <a class="info__carousel_link m-0 text-decoration-none text-white" href="tel:+11011111010">(110) 1111-1010</a>
-                        </figcaption>
-                    </figure>
+                    <div class="info__underline"></div>
 
-                    <figure class="align-items-center carousel-item carousel__transition d-flex justify-content-center gap-2 mb-0">
-                        <img src="assets/img/icon/phone-icon.svg" class="d-block info__carousel--img" alt="...">
+                    <div class="carousel-item carousel--item carousel__transition">
+                        <figure class="align-items-center carousel--img d-flex justify-content-center justify-content-lg-center gap-2 gap-lg-3 m-0">
+                            <img src="assets/img/icon/phone-icon.svg" class="img-fluid info__carousel--img" alt="...">
 
-                        <figcaption class="info__carousel">
-                            <a class="info__carousel_link m-0 break text-decoration-none text-white" href="mailto:contact@HydraVTech.com">Contact@HydraVTech.com</a>
-                        </figcaption>
-                    </figure>
-                </div><!-- Container do conteúdo do carrossel-->
+                            <figcaption class="">
+                                <h2 class="d-none d-lg-flex info__carousel__subtitle mb-2">Give Us a Call</h2>
+                                <a class="info__carousel_link m-0 text-decoration-none text-white" href="tel:+11011111010">(110) 1111-1010</a>
+                            </figcaption>
+                        </figure>
+                    </div><!-- Carousel-item -->
 
-                <button class="carousel-control-next position-relative" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <div class="info__underline"></div>
+
+                    <div class="carousel-item carousel--item carousel__transition">
+                        <figure class="align-items-center carousel--img d-flex justify-content-center justify-content-lg-end gap-2 gap-lg-3 m-0">
+                            <img src="assets/img/icon/email-icon.svg" class="img-fluid info__carousel--img" alt="...">
+
+                            <figcaption class="">
+                                <h2 class="d-none d-lg-flex info__carousel__subtitle mb-2">Send Us a Message</h2>
+                                <a class="info__carousel_link m-0 break text-decoration-none text-white" href="mailto:contact@HydraVTech.com">Contact@HydraVTech.com</a>
+                            </figcaption>
+                        </figure>
+                    </div><!-- Carousel-item -->
+
+                </div><!-- Container Carousel-inner -->
+
+                <button class="carousel-control-next d-lg-none position-relative" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
                     <span class="carousel-control-next-icon next--icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div> <!-- Container do carrossel com background-->
+            </div><!-- Container Carousel-->
         </section>
     </header>
 
     <main class="conteudo">
         <section class="container d-flex flex-column introduction justify-content-center margin-top">
             <div class="align-items-center d-flex justify-content-center justify-content-lg-between mb-lg-5">
+
                 <div class="align-items-center align-items-lg-start d-flex flex-column">
                     <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">Introduction</h2>
                     <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
@@ -130,6 +146,7 @@
                                         lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
                     </p>
                 </div><!-- Container introduction--paragraph // min-width: 992px -->
+
             </div><!-- Container Introduction + Paragraph-->
 
             <div class="align-items-center d-flex flex-column flex-lg-row justify-content-lg-between mt-lg-5">
@@ -141,6 +158,7 @@
                     <p class="introduction--paragraph paragraph mb-0 mt-4">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipisci ng at in. Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet sed. Consequat sem per viverra nam libero justo laoreet sit amet. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudin tempor.</p>
                     <button type="button" class="border-0 btn btn--mod text-uppercase">Let's Get In Touch</button>
                 </div><!-- Container subtitle, paragraph, button -->
+
             </div><!-- Container Introduction IMG + Paragraph -->
         </section>
         
@@ -149,10 +167,12 @@
 
                 <div class="align-items-center align-items-lg-start d-flex flex-column">
                     <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">Why Build</h2>
+
                     <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
                         <h3 class="interlude mb-3 mb-lg-0 text-center text-lg-start text-uppercase">With Hydra</h3>
                         <span class="d-none d-lg-flex introduction__seta"></span>
                     </div><!-- Interlude + icon right arrow -->
+
                 </div><!-- Container Text Responsive -->
                 
                 <div class="d-none d-lg-flex">
@@ -162,16 +182,19 @@
                                         lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
                     </p>
                 </div><!-- Container introduction--paragraph // min-width: 992px -->
+
             </div><!-- Container Text -->
 
             <div class="carousel align-items-center d-flex justify-content-center slide why__info" id="carouselExample">
+
                 <button class="carousel-control-prev d-lg-none position-relative" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon why__prev--icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
                 <div class="carousel-inner d-lg-flex justify-content-lg-between gap-lg-3">
-                    <div class="active carousel-item carousel--item carousel__transition why__info--lg ps-3 pe-3 ps-3 pe-3">
+
+                    <div class="active carousel-item carousel--item carousel__transition why__info--lg ps-3 pe-3">
                         <figure class="align-items-center d-flex flex-column justify-content-center mb-0">
                             <img src="assets/img/img/simulation.svg" class="d-block mt-5 why__carousel_img" alt="...">
                             
@@ -186,7 +209,7 @@
                     </div><!-- Carousel-item -->
 
                     <div class="carousel-item carousel--item carousel__transition why__info--lg ps-3 pe-3">
-                        <div class="align-items-center d-flex flex-column justify-content-center mb-0">
+                        <figure class="align-items-center d-flex flex-column justify-content-center mb-0">
                             <img src="assets/img/img/Education.svg" class="d-block mt-5 why__carousel_img" alt="...">
                             
                             <figcaption class="d-flex flex-column align-items-center why__carousel_text w-100">
@@ -196,7 +219,7 @@
                                 
                                 <button type="submit" class="border-0 btn btn--mod text-uppercase w-100">Try It Now</button>
                             </figcaption>
-                        </div>
+                        </figure>
                     </div><!-- Carousel-item -->
 
                     <div class="carousel-item carousel--item carousel__transition why__info--lg ps-3 pe-3">
@@ -237,22 +260,43 @@
         </section>
 
         <section class="container margin-top technologies">
-            <figure class="card bg-transparent card--mod border-0 mb-0">
-                <img src="assets/img/img/technologies-bg.svg" class="card-img technologies__bg" alt="Imagem de background">
-                    
-                <figcaption class="card-img-overlay d-flex flex-column align-items-center justify-content-center p-0">
-                    <h2 class="technologies__subtitle mb-3">Technologies & Hardware</h2>
-                    <p class="technologies__paragraph mb-0">Used by Hydra VR.</p>
-                </figcaption>
-            </figure>
 
-            <div class="carousel align-items-center d-flex justify-content-center slide technologies__info" id="carouselExample1">
+
+
+
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item bg-transparent border-0 position-relative">
+                    <h2 class="accordion-header position-relative" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button accordion--button bg-transparent shadow-none collapsed d-flex flex-column p-0 position-relative rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <img src="assets/img/img/technologies-bg.svg" class="d-md-none card-img technologies__bg" alt="Imagem de background">
+                            <img src="assets/img/img/technologies-bg-lg.svg" class="d-none d-md-flex card-img technologies__bg" alt="Imagem de background">
+                            
+                            <figcaption class="align-items-center card-img-overlay d-flex flex-column justify-content-center p-0">
+                                <h2 class="technologies__subtitle mb-3">Technologies & Hardware</h2>
+                                <p class="technologies__paragraph mb-0">Used by Hydra VR.</p>
+                            </figcaption>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body d-flex justify-content-center">
+                            <p class="pt-3 text-center text-white w-75"><strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="align-items-center carousel d-flex justify-content-center slide technologies__info" id="carouselExample1">
                 <button class="carousel-control-prev d-lg-none position-relative" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon technologies__prev--icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
                 <div class="carousel-inner d-lg-flex justify-content-lg-between align-items-lg-center">
+
                     <div class="carousel-item carousel--item carousel__transition">
                         <figure class="align-items-center carousel--img d-flex flex-column justify-content-center m-0">
                             <img src="assets/img/logotipo/UNREAL2.svg" class="img-fluid technologies__carousel_img" alt="...">
@@ -276,6 +320,7 @@
                             <img src="assets/img/logotipo/vive 2.svg" class="img-fluid technologies__carousel_img" alt="...">
                         </figure>
                     </div><!-- Carousel-item -->
+
                 </div><!-- Container Carousel-inner -->
 
                 <button class="carousel-control-next d-lg-none position-relative" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
@@ -291,36 +336,40 @@
 
                 <div class="align-items-center align-items-lg-start d-flex flex-column">
                     <h2 class="mb-3 mb-lg-2 subtitle text-center text-lg-start text-uppercase">How We Build</h2>
+
                     <div class="align-items-center d-flex gap-lg-4 gap-xl-5">
                         <h3 class="interlude mb-3 mb-lg-0 text-center text-lg-start text-uppercase">With Hydra VR?</h3>
                         <span class="d-none d-lg-flex introduction__seta"></span>
                     </div><!-- Interlude + icon right arrow -->
+
                 </div><!-- Container Text -->
 
                 <div class="d-none d-lg-flex">
-                    <p class="mb-0 introduction--paragraph paragraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                    <p class="introduction--paragraph mb-0 paragraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                                         nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                                         quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
                                         lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
                     </p>
                 </div><!-- Container introduction--paragraph // min-width: 992px -->
+
             </div><!-- Container Text -->
 
-            <div class="carousel align-items-center d-flex justify-content-center slide how__info" id="carouselExample2">
+            <div class="align-items-center carousel d-flex how__info justify-content-center slide" id="carouselExample2">
                 <button class="carousel-control-prev d-lg-none position-relative" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon technologies__prev--icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
 
-                <div class="carousel-inner d-lg-flex justify-content-lg-between align-items-lg-center">
-                    <div class="carousel-item carousel--item carousel__transition active">
+                <div class="align-items-lg-center carousel-inner d-lg-flex justify-content-lg-between">
+
+                    <div class="active carousel-item carousel--item carousel__transition">
                         <div class="align-items-center d-flex flex-column justify-content-center mb-0 mt-5">
-                            <h3 class="how__carousel_number align-items-center text-center position-relative">
+                            <h3 class="align-items-center how__carousel_number position-relative text-center">
                                 <span class="position-absolute top-50 start-50 translate-middle">01</span>
                             </h3>
 
                             <div class="align-items-lg-start d-lg-flex gap-lg-2 gap-xl-3 mt-4">
-                                <span class="d-none d-lg-flex how__seta"></span>
+                                <span class="d-none d-lg-flex how__seta mt-1"></span>
                                 <h2 class="how__carousel_subtitle text-center text-lg-start mb-0">3D Conception <br>& Design</h2>
                             </div>    
                         </div>
@@ -328,12 +377,12 @@
 
                     <div class="carousel-item carousel--item carousel__transition">
                         <div class="align-items-center d-flex flex-column justify-content-center mb-0 mt-5">
-                            <h3 class="how__carousel_number align-items-center text-center position-relative">
-                                <span class="position-absolute top-50 start-50 translate-middle">02</span>
+                            <h3 class="align-items-center how__carousel_number position-relative text-center">
+                                <span class="position-absolute start-50 top-50 translate-middle">02</span>
                             </h3>
 
                             <div class="align-items-lg-start d-lg-flex gap-lg-2 gap-xl-3 mt-4">
-                                <span class="d-none d-lg-flex how__seta"></span>
+                                <span class="d-none d-lg-flex how__seta mt-1"></span>
                                 <h2 class="how__carousel_subtitle text-center text-lg-start mb-0">Interaction<br> Design</h2>
                             </div>    
                         </div>
@@ -341,12 +390,12 @@
 
                     <div class="carousel-item carousel--item carousel__transition">
                         <div class="align-items-center d-flex flex-column justify-content-center mb-0 mt-5">
-                            <h3 class="how__carousel_number align-items-center text-center position-relative">
-                                <span class="position-absolute top-50 start-50 translate-middle">03</span>
+                            <h3 class="align-items-center how__carousel_number position-relative text-center">
+                                <span class="position-absolute start-50 top-50 translate-middle">03</span>
                             </h3>
 
                             <div class="align-items-lg-start d-lg-flex gap-lg-2 gap-xl-3 mt-4">
-                                <span class="d-none d-lg-flex how__seta"></span>
+                                <span class="d-none d-lg-flex how__seta mt-1"></span>
                                 <h2 class="how__carousel_subtitle text-center text-lg-start mb-0">VR World<br> User Testing</h2>
                             </div>    
                         </div>
@@ -354,16 +403,17 @@
 
                     <div class="carousel-item carousel--item carousel__transition">
                         <div class="align-items-center d-flex flex-column justify-content-center mb-0 mt-5">
-                            <h3 class="how__carousel_number align-items-center text-center position-relative">
-                                <span class="position-absolute top-50 start-50 translate-middle">04</span>
+                            <h3 class="align-items-center how__carousel_number position-relative text-center">
+                                <span class="position-absolute start-50 top-50 translate-middle">04</span>
                             </h3>
 
                             <div class="align-items-lg-start d-lg-flex gap-lg-2 gap-xl-3 mt-4">
-                                <span class="d-none d-lg-flex how__seta"></span>
-                                <h2 class="how__carousel_subtitle text-center text-lg-start mb-0">Hydra VR<br> Deploy</h2>
+                                <span class="d-none d-lg-flex how__seta mt-1"></span>
+                                <h2 class="how__carousel_subtitle mb-0 text-center text-lg-start">Hydra VR<br> Deploy</h2>
                             </div>    
                         </div>
                     </div><!-- Carousel-item -->
+
                 </div><!-- Container Carousel-inner -->
 
                 <button class="carousel-control-next d-lg-none position-relative" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
@@ -376,38 +426,38 @@
         <section class="container form margin-top">
             <div class="form__bg pb-5 pe-3 pe-md-5 ps-3 ps-md-5 pt-5">
 
-                <div class="d-flex flex-column align-items-center">
+                <div class="align-items-center d-flex flex-column">
                     <h2 class="subtitle mb-3 text-center text-uppercase">Join Hydra</h2>
                     <span class="form__underlined mb-3 text-center"></span>
                     <h3 class="form--interlude mb-4 text-center text-uppercase">Let’s Build br Your VR Experience</h3>
                 </div>
 
-                <form class="row mt-3">
+                <form class="mt-3 row">
                     <fieldset class="col-md-6 mb-4">
-                        <input type="text" class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlInput1" placeholder="First Name">
+                        <input type="text" class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlInput1" placeholder="First Name">
                     </fieldset>
 
                     <fieldset class="col-md-6 mb-4">
-                        <input type="text" class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlInput1" placeholder="Last name">
+                        <input type="text" class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlInput1" placeholder="Last name">
                     </fieldset>
 
                     <fieldset class="col-md-6 mb-4">
-                        <input type="email" class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlInput1" placeholder="Email">
+                        <input type="email" class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlInput1" placeholder="Email">
                     </fieldset>
 
                     <fieldset class="col-md-6 mb-4">
-                        <input type="tel" class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlInput1" placeholder="Phone Number">
+                        <input type="tel" class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlInput1" placeholder="Phone Number">
                     </fieldset>
 
                     <fieldset class="col-md-12 mb-4">
-                        <input type="text" class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlInput1" placeholder="Subject">
+                        <input type="text" class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlInput1" placeholder="Subject">
                     </fieldset>
 
                     <fieldset class="col-md-12 mb-3">
-                        <textarea class="bg-transparent border-2 form-control form__field rounded-5 pb-3 ps-4 pt-3" id="exampleFormControlTextarea1" rows="5" placeholder="Tell Us Something..."></textarea>
+                        <textarea class="bg-transparent border-2 form-control form__field pb-3 ps-4 pt-3 rounded-5" id="exampleFormControlTextarea1" rows="5" placeholder="Tell Us Something..."></textarea>
                     </fieldset>
 
-                    <fieldset class="d-flex justify-content-center align-items-center">
+                    <fieldset class="align-items-center d-flex justify-content-center">
                         <button type="submit" class="border-0 btn btn--mod text-uppercase">Send To Hydra</button>
                     </fieldset> <!-- Container Botão -->
                 </form><!-- Container Grid -->
@@ -415,28 +465,58 @@
         </section>
     </main>
 
-    <footer class="align-items-center container d-flex flex-column">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <img src="assets/img/logotipo/logotipo-footer.svg" alt="Logo" class="footer__logo_img w-100">
-            <h2 class="footer__social_subtitulo mb-0 margin-top text-uppercase">Socialize With Hydra</h2>
+    <footer class="container d-flex flex-column">
+        <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between">
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <img src="assets/img/logotipo/logotipo-footer.svg" alt="Logo" class="footer__logo_img w-100">
+            </div>
+
+            <div class="d-none d-lg-flex footer__underline"></div>
+
+            <ul class="d-none d-lg-flex  flex-column justify-content-between footer__list list-unstyled m-0">
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">About</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">Services</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">Technologies</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">How To</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">Join Hydra</a></li>
+            </ul>
+
+            <div class="d-none d-lg-flex footer__underline"></div>
+
+            <ul class="d-none d-lg-flex flex-column justify-content-between footer__list list-unstyled m-0">
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">F.A.Q</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">SiteMap</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">Conditions</a></li>
+                <li class="footer__list__item"><a class="footer__lista__link text-decoration-none" href="">License</a></li>
+            </ul>
+
+            <div class="d-none d-lg-flex footer__underline"></div>
+
+            <div class="d-flex flex-column justify-content-between">
+                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                    <h2 class="footer__social_subtitulo mb-0 text-uppercase">Socialize With Hydra</h2>
+                </div>
+
+                <div class="d-flex footer__social gap-4 justify-content-center mt-4 w-100">
+                    <span class="footer__social_icons icon-facebook"></span>
+                    <span class="footer__social_icons icon-twitter"></span>
+                    <span class="footer__social_icons icon-linkedin"></span>
+                    <span class="footer__social_icons icon-youtube"></span>
+                    <span class="footer__social_icons icon-instagram"></span>
+                    <span class="footer__social_icons icon-pinterest"></span>
+                </div>
+
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <button type="submit" class="border-0 btn btn--mod text-uppercase align-content-cente">Build Your World</button>
+                </div>
+            </div>
         </div>
 
-        <div class="d-flex footer__social gap-4 justify-content-center mt-4 w-100">
-            <span class="footer__social_icons icon-facebook"></span>
-            <span class="footer__social_icons icon-twitter"></span>
-            <span class="footer__social_icons icon-linkedin"></span>
-            <span class="footer__social_icons icon-youtube"></span>
-            <span class="footer__social_icons icon-instagram"></span>
-            <span class="footer__social_icons icon-pinterest"></span>
-        </div>
+        <div class="footer__underline-mod"></div>
 
-        <div class="d-flex justify-content-center">
-            <button type="submit" class="border-0 btn btn--mod text-uppercase align-content-cente">Build Your World</button>
-        </div>
-
-        <div class="footer_underline"></div>
-
-        <p class="footer__creditos mb-0 text-center text-uppercase">2023 &copy; Hydra Landing Page<br> By: Bruno Tenório<br> Todos os direitos reservados</p>
+        <legend class="d-flex justify-content-center">
+            <p class="footer__creditos mb-0 text-center text-uppercase">2023 &copy; Hydra Landing Page By: Bruno Tenório Todos os direitos reservados</p>
+        </legend>
     </footer>
 
     <!-- JavaScript -->
@@ -446,12 +526,12 @@
 </body>
 </html>
 
-<!-- Criar seção de localização também pertecente ao header -->
+<!-- Arrumar carrossel das informações e fazer o rodapé -->
 
 
 <!-- Correções -->
 <!-- 
     * Modificar o icon de close e adicionar o container dentro do menu mobile.
     * Adicionar efeitos de linha no background
-    * Criar box-shadow da img do headline
+    * Organizar e efatorar códigos, pois tem muitos códigos repetidos
 -->
