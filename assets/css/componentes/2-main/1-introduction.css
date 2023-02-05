@@ -1,6 +1,7 @@
 .img--introduction {
     max-width: 28.6875rem;
     max-height: 34.8125rem;
+    filter: drop-shadow(0px 0px 6px #080708);
 }
 
 .introduction__seta {
