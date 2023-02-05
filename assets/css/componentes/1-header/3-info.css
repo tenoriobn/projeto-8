@@ -18,6 +18,10 @@
     width: 1.4063rem;
 }
 
+.carousel--img {
+    height: 3.875rem;
+}
+
 .info__carousel--img {
     max-height: 3.8269rem;
     max-width: 2.5519rem;
@@ -61,6 +65,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    .carousel--img {
+        height: auto!important;
+    }
+
     .info__carousel--img {
         max-height: inherit;
         max-width: inherit;
