@@ -1,11 +1,11 @@
-footer {
-    margin-top: 5.0625rem;
-    margin-bottom: 2.25rem;
-}
-
 .footer__logo_img {
+    cursor: pointer;
     max-height: 11.6875rem;
     max-width: 11.5625rem;
+}
+
+.footer__logo_img:hover {
+    filter: drop-shadow(0px 0px 6px #a399cd);
 }
 
 .footer__underline {
@@ -44,6 +44,10 @@ footer {
 
     width: 32px;
     height: 32px;
+}
+
+.footer__social_icons:hover {
+    filter: drop-shadow(0px 0px 6px #a399cd);
 }
 
 .icon-facebook {

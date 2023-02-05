@@ -12,6 +12,10 @@
     margin-left:inherit;
 }
 
+.accordion--button:not(.collapsed)::after {
+    background-image: url(../../../img/icon/down\ arrow.svg);
+}
+
 .technologies__subtitle {
     color: var(--branco);
     font-size: 1rem;
@@ -30,3 +34,25 @@
     width: 186px;
     height: 143px;
 }
+
+.technologies__carousel_img:hover {
+    filter: drop-shadow(0px 0px 6px #a399cd);
+}
+
+.accordion--button:hover::after {
+    filter: drop-shadow(0px 0px 6px #a399cd);
+}
+
+.accordion--collapse {
+    transition: 1s;
+}
+
+.technologies__accordion__paragraph {
+    font: 1rem;
+    max-width: 750px;
+}
+
+.technologies__prev--icon, 
+.technologies__next--icon {
+    filter: drop-shadow(0px 0px 12px #a399cd);
+} 
